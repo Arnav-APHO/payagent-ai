@@ -70,10 +70,10 @@ npm install
 ```bash
 npm start
 ```
-The server will start instantly at **`http://localhost:3000`**.
+The server will start instantly at **`http://localhost:4000`**.
 
 ### 3. Open in Browser
-Open `http://localhost:3000` to interact with:
+Open `http://localhost:4000` to interact with:
 - The **Agent Procurement Terminal** (try the preset prompts: *GPU Compute*, *Domain Name*, or *Trigger Anomaly Guard*).
 - The **Interactive PayPal Sandbox Checkout**.
 - The **AG Grid Command Center** (live sorting, filtering, and CSV export).
