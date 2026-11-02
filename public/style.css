@@ -1,0 +1,58 @@
+/* PayAgent AI Custom Styles */
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #090d16;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* AG Grid Dark Theme Customization */
+.ag-theme-alpine-dark {
+  --ag-background-color: #0b1120;
+  --ag-header-background-color: #0f172a;
+  --ag-odd-row-background-color: #0d1527;
+  --ag-header-foreground-color: #94a3b8;
+  --ag-foreground-color: #e2e8f0;
+  --ag-border-color: #1e293b;
+  --ag-row-hover-color: #1e293b;
+  --ag-selected-row-background-color: #312e81;
+  --ag-font-size: 12px;
+  --ag-font-family: inherit;
+}
+
+.ag-theme-alpine-dark .ag-header-cell {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 11px;
+}
+
+.ag-theme-alpine-dark .ag-cell {
+  display: flex;
+  align-items: center;
+}
+
+/* Custom terminal animation */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.cursor-blink {
+  display: inline-block;
+  width: 6px;
+  height: 12px;
+  background-color: #818cf8;
+  margin-left: 2px;
+  animation: blink 1s infinite;
+}
