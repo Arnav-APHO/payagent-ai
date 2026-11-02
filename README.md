@@ -20,6 +20,15 @@ Autonomous AI agents (personal shoppers, procurement bots, developer assistants)
 3. **PayPal Orders v2 Settlement**: Directly interfaces with PayPal's sandbox APIs (Capture & Checkout) for verified, compliant payment execution.
 4. **AG Grid Command Center**: Delivers real-time telemetry, transaction filtering, and audit compliance for thousands of high-velocity agent settlements.
 
+
+---
+
+## 🎥 Video Demo Walkthrough
+
+A complete 68-second narrated video demo showcasing PayAgent AI, the PayPal Orders v2 sandbox flow, AI Anomaly Guard, and AG Grid telemetry is included in this repository:
+
+👉 **[Watch / Download Demo Video (payagent_demo.mp4)](payagent_demo.mp4)**
+
 ---
 
 ## 🏗️ Architecture
